@@ -1,8 +1,8 @@
 import React from 'react';
 
-export const DarkMode = () => {
+export const Projects = () => {
     return (
-        <div className="darkmode__container">
+        <div className="projects__container">
             
         </div>
     );

@@ -1,0 +1,24 @@
+/* GENERAL */
+@import './base/settings';
+@import './mixins/mixins';
+@import './base/base';
+
+/* COMPONENTS */
+@import './components/home';
+@import './components/header';
+@import './components/aside';
+@import './components/main';
+@import './components/typesprojects';
+@import './components/cardsprojects';
+@import './components/footer';
+@import './components/PersonalInfo/personalinfo';
+@import './components/Toggle/idioma';
+@import './components/Toggle/darkmode';
+@import './components/Skills/skills';
+@import './components/Hobbies/hobbies';
+@import './components/Blog/blog';
+@import './components/Experiences/experiences';
+@import './components/Projects/projects';
+@import './components/Projects/responsive';
+@import './components/Projects/api';
+@import './components/Projects/mern';
