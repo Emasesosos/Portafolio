@@ -2,5 +2,44 @@
     background: #FFFFFF;
     border-radius: 12px;
     height: 836px;
+    padding: 22px;
     width: 100%; //415px;
+}
+
+.hobbies__title {
+    color: #4F4F4F;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 26px;
+}
+
+.hobbies__img {
+    margin-bottom: 26px;
+}
+
+img {
+    border-radius: 12px;
+    height: 139px;
+    width: 100%;
+}
+
+.hobbies__list {
+    margin-bottom: 25px;
+}
+
+.hobbies__name {
+    margin-bottom: 10px;
+    h3 {
+        color: #333333;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+.hobbies__description {
+    p {
+        color: #828282;
+        font-size: 16px;
+        font-weight: 500;
+    }
 }
