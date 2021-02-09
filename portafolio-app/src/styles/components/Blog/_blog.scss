@@ -3,5 +3,49 @@
     border-radius: 12px;
     height: 656px;
     margin-bottom: 42px;
+    padding: 31px 20px;
     width: 100%; //596px;
+}
+
+.blog__title {
+    color: #E0E0E0;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 21px;
+}
+
+.blog__main {
+    position: relative;
+}
+
+.blog__article {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 500;
+    width: 187px;
+}
+
+.blog__image {
+    background: blanchedalmond;
+    border-radius: 12px 0 0 12px;
+    height: 321px;
+    left: 226px;
+    position: absolute;
+    top: 0;
+    width: 349px;
+    img {
+        border-radius: 12px 0 0 12px;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.blog__description {
+    color: #828282;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    position: absolute;
+    top: 370px;
+    width: 492px;
 }
