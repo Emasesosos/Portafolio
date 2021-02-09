@@ -7,7 +7,7 @@ export const Blog = () => {
             <div className="blog__title">
                 <h4>Blog</h4>
             </div>
-            <div className="blog__main">
+            {/* <div className="blog__main">
                 <div className="blog__article">
                     <h3>Guía para ser un Frontend Developer con Udemy</h3>
                 </div>
@@ -20,7 +20,7 @@ export const Blog = () => {
                         Dolor accusamus aliquid porro nisi tenetur a magni reprehenderit! Error facere mollitia aut ipsa, eligendi nisi. Repellendus placeat, deleniti voluptate labore asperiores sunt ipsa nihil, earum tempore quas molestias. Veniam!</p>
                     </article>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

@@ -2,9 +2,15 @@
     align-items: center;
     // background: mediumaquamarine;
     display: flex;
-    height: 311px;
+    height: 675px;
     justify-content: center;
     margin-bottom: 42px;
     margin-top: 70px;
     width: 100%;
+}
+
+@include tablet{
+    .header__container {
+        height: 311px;
+    }
 }

@@ -1,13 +1,16 @@
 import React from 'react';
 import Email from '@material-ui/icons/Email';
 import Phone from '@material-ui/icons/Phone';
+import cosmos from './../../assets/cosmos.png';
 
 export const PersonalInfo = () => {
 
     return (
 
         <div className="personalInfo__container">
-            <div className="personalInfo__foto"></div>
+            <div className="personalInfo__foto">
+                <img src={ cosmos } alt="yo"/>
+            </div>
             <div className="personalInfo__personal">
                 <div className="personalInfo__name-email-phone">
                     <div className="personalInfo__name">
