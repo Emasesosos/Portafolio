@@ -1,5 +1,16 @@
 .cardsProjects__container {
-    background: cornflowerblue;
-    height: 604px;
-    width: 100%;
+    align-items: center;
+    // background: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    height: 1812px; //604px;
+    width: 328.49px; //100%;
+}
+
+@include tablet {
+    .cardsProjects__container {
+        flex-direction: row;
+        height: 604px;
+        width: 100%;
+    }
 }

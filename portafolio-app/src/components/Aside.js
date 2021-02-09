@@ -5,7 +5,8 @@ import { Hobbies } from './Hobbies/Hobbies';
 export const Aside = () => {
     return (
         <div className="aside__container">
-            Aside
+            <Skills />
+            <Hobbies />
         </div>
     );
 };

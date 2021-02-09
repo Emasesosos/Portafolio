@@ -1,5 +1,13 @@
 .aside__container {
-    background: mediumpurple;
+    // background: mediumpurple;
+    display: flex;
+    flex-direction: column;
     height: 1223px;
-    width: 450px;
+    width: 100%; //450px;
+}
+
+@include tablet {
+    .aside__container {
+        width: 50%;
+    } 
 }

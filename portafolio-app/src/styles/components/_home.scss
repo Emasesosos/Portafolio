@@ -1,26 +1,27 @@
 .home__container {
-    // align-items: center;
-    // background: #333333;
-    // display: flex;
-    // flex-direction: column;
-    // height: 100vh;
-    // justify-content: center;
-    // margin: 0 auto;
-    // max-width: 1200px;
-    // Prueba
     align-items: center;
-    background: chartreuse;
+    // background: chartreuse;
     display: flex;
     flex-direction: column;
     // height: 100vh;
     justify-content: center;
-    margin: 0 auto;
+    margin: 0 20px;
     max-width: 1046px;
 }
 
 .home__main {
     align-items: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
+}
+
+@include tablet {
+    .home__container {
+        margin: 0 auto;
+    }
+    .home__main {
+        flex-direction: row;
+    }
 }

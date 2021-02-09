@@ -1,5 +1,25 @@
-.footer_container {
-    background: darkgoldenrod;
+.footer__container {
+    align-items: center;
+    background: #e2e2e2;;
+    display: flex;
     height: 159px;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
+}
+
+.footer__line {
+    border: 1px solid #BDBDBD;
+    margin-bottom: 23px;
+    width: 80%; //402px;
+}
+
+.footer__info {
+    display: flex;
+}
+
+@include telefono {
+    .footer__line {
+        width: 402px;
+    }
 }
