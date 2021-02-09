@@ -1,6 +1,61 @@
 .personalInfo__container {
+    align-items: center;
     background: #FFFFFF;
     border-radius: 12px;
+    display: flex;
     height: 311px;
+    padding: 22px;
     width: 1046px;
+}
+
+.personalInfo__foto {
+    background: cadetblue;
+    border-radius: 12px;
+    height: 100%;
+    margin-right: 30px;
+    width: 267px;
+}
+
+.personalInfo__personal {
+    // background: chocolate;
+    height: 100%;
+    width: 70%;
+}
+
+.personalInfo__name-email-phone {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 37px;
+    .personalInfo__name {
+        h4 {
+            color: #4F4F4F;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+        p {
+            color: #828282;
+            font-size: 18px; 
+        }
+    }
+    .personalInfo__email-phone {
+        p { 
+            color: #4F4F4F;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 6px; 
+            margin-left: 18.39px;
+        }
+        .personalInfo__email,
+        .personalInfo__phone {
+            display: flex;
+        }
+    }
+}
+
+.personalInfo__descripcion {
+    color: #828282;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
 }
