@@ -1,11 +1,12 @@
 .main__container {
     // background: blue;
-    height: 1223px;
+    height: 1200px;
     width: 100%;
 }
 
 @include tablet {
     .main__container {
+        height: 1223px;
         padding-left: 34.64px; //37.98px;
         width: 785px;
     } 

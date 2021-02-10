@@ -1,10 +1,16 @@
 .blog__container {
     background: #FFFFFF;
     border-radius: 12px;
-    height: 656px;
+    height: 640px;
     margin-bottom: 42px;
     padding: 31px 20px;
     width: 100%; //596px;
+}
+
+@include tablet {
+    .blog__container {
+        height: 656px;
+    }
 }
 
 .blog__title {
@@ -28,15 +34,27 @@
 .blog__image {
     background: blanchedalmond;
     border-radius: 12px 0 0 12px;
-    height: 321px;
-    left: 226px;
+    height: 100%;
+    left: 0px;
     position: absolute;
-    top: 0;
-    width: 349px;
+    top: 200px;
+    width: 100%;
     img {
-        border-radius: 12px 0 0 12px;
+        border-radius: 12px;
         height: 100%;
         width: 100%;
+    }
+}
+
+@include tablet {
+    .blog__image {
+        height: 321px;
+        left: 226px;
+        top: 0;
+        width: 349px;
+    }
+    img {
+        border-radius: 12px 0 0 12px;
     }
 }
 
@@ -46,6 +64,13 @@
     font-weight: 500;
     line-height: 20px;
     position: absolute;
-    top: 370px;
-    width: 492px;
+    top: 390px;
+    width: 100%;
+}
+
+@include tablet {
+    .blog__description {
+        top: 370px;
+        width: 492px;
+    }
 }
