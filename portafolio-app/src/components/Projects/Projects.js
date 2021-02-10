@@ -13,16 +13,16 @@ export const Projects = () => {
             </div>
             <div className="projects__types">
                 <div 
-                    className="projects__responsive"
+                    className="projects__responsive "
                     onClick={ () => handleProjectClick('R') }
                 >
-                    <p>React: Responsive</p>
+                    <p>Responsive</p>
                 </div>
                 <div 
                     className="projects__api"
                     onClick={ () => handleProjectClick('A') }
                 >
-                    <p>React: Use of API</p>
+                    <p>API</p>
                 </div>
                 <div 
                     className="projects__mern"

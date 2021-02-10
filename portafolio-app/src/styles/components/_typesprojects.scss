@@ -1,5 +1,11 @@
 .typesProjects__container {
     // background: coral;
-    height: 151px;
+    height: 251px;
     width: 100%;
+}
+
+@include tablet {
+    .typesProjects__container {
+        height: 151px;
+    }
 }

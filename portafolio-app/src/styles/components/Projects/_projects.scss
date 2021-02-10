@@ -1,7 +1,7 @@
 .projects__container {
     background: #FFFFFF;
     border-radius: 12px;
-    height: 115px;
+    height: 215px;
     padding: 22px;
     width: 100%; //1046px;
 }
@@ -17,12 +17,29 @@
 
 .projects__types {
     display: flex;
+    flex-direction: column;
 }
 
 .projects__responsive, 
 .projects__api,
 .projects__mern {
-    margin-right: 16px;
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+
+@include tablet {
+    .projects__container {
+        height: 115px;
+    }
+    .projects__types {
+        flex-direction: row;
+    }
+    .projects__responsive, 
+    .projects__api,
+    .projects__mern {
+        margin-right: 16px;
+        margin-bottom: 0;
+    }
 }
 
 .projects__responsive {
