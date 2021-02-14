@@ -55,7 +55,7 @@ export const mern = [{
         hash: '#MongoDB, #ExpressJs #React #NodeJs',
         name: 'Social Media Dashboard',
         description: 'Información de redes',
-        demo: '/',
+        demo: 'https://social-media-dashboard-jade.vercel.app/',
         code: 'https://github.com/Emasesosos/SocialMediaDashboard'
     },
     {
@@ -63,7 +63,7 @@ export const mern = [{
         hash: '#MongoDB, #ExpressJs #React #NodeJs',
         name: 'Autenticación App',
         description: 'Register, Login, JWT, REDUX, Firebase, Cloudinary',
-        demo: '/',
+        demo: 'https://authentication-app-tau.vercel.app/auth/login',
         code: 'https://github.com/Emasesosos/Authentication-App'
     }
 ];
