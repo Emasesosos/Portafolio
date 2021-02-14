@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-export const Projects = () => {
+export const Projects = ({ setTypeProjects }) => {
+
+    const [hoverClass, setHoverClass] = useState('responsive');
 
     const handleProjectClick = (type) => {
         console.log({type});
+        if(type === 'R') {
+            setHoverClass('responsive');
+            setTypeProjects('R');
+        } else if(type === 'A') {
+            setHoverClass('api');
+            setTypeProjects('A');
+        } else {
+            setHoverClass('mern');
+            setTypeProjects('M');
+        }
     };
 
     return (
@@ -13,19 +25,19 @@ export const Projects = () => {
             </div>
             <div className="projects__types">
                 <div 
-                    className="projects__responsive "
+                    className={`projects__responsive ${hoverClass}`}
                     onClick={ () => handleProjectClick('R') }
                 >
                     <p>Responsive</p>
                 </div>
                 <div 
-                    className="projects__api"
+                    className={`projects__api ${hoverClass}`}
                     onClick={ () => handleProjectClick('A') }
                 >
                     <p>API</p>
                 </div>
                 <div 
-                    className="projects__mern"
+                    className={`projects__mern ${hoverClass}`}
                     onClick={ () => handleProjectClick('M') }
                 >
                     <p>MERN</p>

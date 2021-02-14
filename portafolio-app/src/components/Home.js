@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Aside } from './Aside';
 import { CardsProjects } from './CardsProjects';
 import { Footer } from './Footer';
@@ -7,6 +7,9 @@ import { Main } from './Main';
 import { TypesProjects } from './TypesProjects';
 
 export const Home = () => {
+
+    const [typeProjects, setTypeProjects] = useState('R');
+
     return (
         <div className="home__container">
             <Header />
@@ -14,8 +17,12 @@ export const Home = () => {
                 <Aside />
                 <Main />
             </div>
-            <TypesProjects />
-            <CardsProjects />
+            <TypesProjects 
+                setTypeProjects={ setTypeProjects }
+            />
+            <CardsProjects 
+                typeProjects={ typeProjects }
+            />
             <Footer />
         </div>
     );

@@ -1,10 +1,12 @@
 import React from 'react';
 import { Projects } from './Projects/Projects';
 
-export const TypesProjects = () => {
+export const TypesProjects = ({ setTypeProjects }) => {
     return (
         <div className="typesProjects__container">
-            <Projects />
+            <Projects 
+                setTypeProjects={ setTypeProjects }
+            />
         </div>
     );
 };
