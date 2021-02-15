@@ -37,7 +37,7 @@ export const api = [{
         hash: '#React #API',
         name: 'Weather App',
         description: 'Aplicación del Clima',
-        demo: 'https://weatherapp-wa.netlify.app/',
+        demo: 'https://weather-app-theta-virid.vercel.app/',
         code: 'https://github.com/Emasesosos/Weather-App'
     },
     {
@@ -45,7 +45,7 @@ export const api = [{
         hash: '#React #API #REDUX',
         name: 'Github Jobs',
         description: 'Ofertas de trabajo mediante Github',
-        demo: 'https://github-jobs-ghj.netlify.app/',
+        demo: 'https://github-jobs-coral.vercel.app/',
         code: 'https://github.com/Emasesosos/Github-Jobs'
     }
 ];
