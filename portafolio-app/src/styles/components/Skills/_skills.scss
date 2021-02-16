@@ -3,10 +3,16 @@
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    height: 303px;
+    height: 285px;
     margin-bottom: 42px;
     padding: 23.47px 23.47px 25.61px 23.47px;
     width: 100%; //415.02px;
+}
+
+@include tablet {
+    .skills__container {
+        height: 308px;
+    }  
 }
 
 .skills__title {
@@ -26,7 +32,14 @@
 
 .skills__list {
     // background: yellow;
+    font-size: 14px;
     width: 110px;
+}
+
+@include tablet {
+    .skills__list {
+        font-size: 16px;
+    }
 }
 
 .skills__range {
@@ -35,7 +48,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-    width: 260px;
+    width: 80%;
     .skills__range__fondo {
         background: #C4C4C4;
         border-radius: 12px;
@@ -50,5 +63,11 @@
         left: 0;
         position: absolute;
         // width: 80%;
+    }
+}
+
+@include tablet {
+    .skills__range {
+        width: 260px;
     }
 }

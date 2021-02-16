@@ -13,9 +13,15 @@ export const Experiences = () => {
                 </div>
                 <div className="experiences__job">
                     <p>Sep 2018 - Actual</p>
-                    <h3>Analista Jr</h3>
+                    <h3>Analista Jr.</h3>
                     <div className="experiences__responsabilidades">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda perferendis porro minima incidunt?</p>
+                        <ul>
+                            <li>* Desarrollo e implementación de aplicaciones contables (ERP) con Sencha Extjs, Java y Oracle.</li>
+                            <li>* Desarrollo de módulos: Caja chica, Reembolsos y Anticipos.</li>
+                            <li>* Desarrollo de reportes con SQR de Oracle.</li>
+                            <li>* Gestión, planeación e implementación de software orientado a necesidades del cliente.</li>
+                            <li>* Servicio y Soporte al Cliente.</li>
+                        </ul>
                     </div>
                 </div>
             </div>

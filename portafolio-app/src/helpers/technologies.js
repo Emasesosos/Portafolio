@@ -5,31 +5,31 @@ export const technologies = [
     },
     {
         tech: 'Javascript',
-        porcentage: '50'
+        porcentage: '60'
     },
     {
         tech: 'CSS',
-        porcentage: '70'
+        porcentage: '75'
     },
     {
         tech: 'SASS',
-        porcentage: '70'
+        porcentage: '75'
     },
     {
         tech: 'REDUX',
-        porcentage: '80'
+        porcentage: '75'
     },
     {
         tech: 'NodeJs',
-        porcentage: '50'
+        porcentage: '55'
     },
     {
         tech: 'ExpressJs',
-        porcentage: '50'
+        porcentage: '55'
     },
     {
         tech: 'Mongo DB',
-        porcentage: '50'
+        porcentage: '55'
     },
     {
         tech: 'Oracle',

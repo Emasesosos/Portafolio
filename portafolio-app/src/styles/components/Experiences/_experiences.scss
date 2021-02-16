@@ -1,9 +1,15 @@
 .experiences__container {
     background: #FFFFFF;
     border-radius: 12px;
-    height: 482px;
+    height: 650px;
     padding: 17px 31.23px 17px 31.23px;
     width: 100%; //592px;
+}
+
+@include tablet {
+    .experiences__container {
+        height: 482px;
+    }
 }
 
 .experiences__title {
@@ -31,15 +37,24 @@
             line-height: 20px;
             margin-bottom: 33px;
         }
-        .experiences__responsabilidades {
-            p {
-                color: #828282;
-                font-size: 16px; 
-                font-weight: 500;
-                line-height: 20px;
-            }
-        }
+        
         width: 387.57px;
+    }
+}
+
+.experiences__responsabilidades {
+    text-decoration: none;
+    ul {
+        text-decoration: none;
+        color: #828282;
+        font-size: 14px; 
+        font-weight: 500;
+        line-height: 20px;
+        li {
+            text-decoration: none;
+            list-style: none;
+            margin-bottom: 10px;
+        }
     }
 }
 
@@ -56,5 +71,10 @@
     .experiences__image {
         height: 84px;
         width: 119.25px;
+    }
+    .experiences__responsabilidades {
+        ul {
+            font-size: 16px;
+        }
     }
 }

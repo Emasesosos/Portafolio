@@ -27,7 +27,9 @@ export const PersonalInfo = () => {
                     </div>
                 </div>
                 <div className="personalInfo__descripcion">
-                    <p>Self-taught and committed to the implementation of the necessary technologies for the development of Projects. Manage, develop and implement technological solutions that generate high impact changes for the company and society.</p>
+                    <p>
+                    Autodidacta y comprometido con la implementación de las tecnologías necesarias para el desarrollo de Proyectos. Gestionar, desarrollar e implementar soluciones tecnológicas que generen cambios de alto impacto para la empresa y la sociedad.
+                    </p>
                 </div>
             </div>
         </div>

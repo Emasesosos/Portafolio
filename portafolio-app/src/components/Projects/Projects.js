@@ -21,7 +21,7 @@ export const Projects = ({ setTypeProjects }) => {
     return (
         <div className="projects__container">
             <div className="projects__title">
-                <h3>Projects(3)</h3>
+                <h3>Proyectos(3)</h3>
             </div>
             <div className="projects__types">
                 <div 

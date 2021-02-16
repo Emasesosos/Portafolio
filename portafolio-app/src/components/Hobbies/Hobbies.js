@@ -1,26 +1,26 @@
 import React from 'react';
-import interestelar from './../../assets/Interestelar1.jpg';
-import edgeOfTomorrow from './../../assets/edge_tomorrow.jpg';
-import cosmos from './../../assets/cosmos.png';
+import reading from './../../assets/reading.jpg';
+import running from './../../assets/running.jpg';
+import cooking from './../../assets/cooking.jpg';
 import { Hobbie } from './Hobbie';
 
 export const Hobbies = () => {
 
     const hobbies = [
         {
-            title: 'Reading',
-            description: 'I like to read, I have started read since 9 years, I read everything',
-            image: interestelar
+            title: 'Leer',
+            description: 'Uno de mis libros favoritos es "La insoportable levedad del ser" de Milan Kundera.',
+            image: reading
         },
         {
-            title: 'Running',
-            description: 'I like to run in the mornings...',
-            image: edgeOfTomorrow
+            title: 'Correr',
+            description: 'Es bueno para la salud pero he encontrado en este hábito mucha paz y tiempo para reflexionar.',
+            image: running
         },
         {
-            title: 'Cooking',
-            description: 'I like to cook...',
-            image: cosmos
+            title: 'Cocinar',
+            description: 'Puedo ir de lo más sencillo a lo más elaborado, experimentar.',
+            image: cooking
         }
     ];
 
