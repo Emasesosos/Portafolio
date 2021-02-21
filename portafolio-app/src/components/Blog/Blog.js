@@ -17,7 +17,7 @@ export const Blog = () => {
                 <div className="blog__description">
                     <article>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est tempora provident sapiente iure unde distinctio veniam hic labore alias perspiciatis mollitia necessitatibus ullam eius vel iste ut, sed quod laudantium!
+                            PROXIMAMENTE!
                         </p>
                     </article>
                 </div>

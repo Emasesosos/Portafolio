@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Aside } from './Aside';
-import { CardsProjects } from './CardsProjects';
+import { CardsProjects } from './Cards/CardsProjects';
 import { Footer } from './Footer';
 import { Header } from './Header';
 import { Main } from './Main';
-import { TypesProjects } from './TypesProjects';
+import { TypesProjects } from './TypesProjects/TypesProjects';
 
 export const Home = () => {
 

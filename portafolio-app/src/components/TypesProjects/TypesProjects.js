@@ -1,5 +1,5 @@
 import React from 'react';
-import { Projects } from './Projects/Projects';
+import { Projects } from './../Projects/Projects';
 
 export const TypesProjects = ({ setTypeProjects }) => {
     return (

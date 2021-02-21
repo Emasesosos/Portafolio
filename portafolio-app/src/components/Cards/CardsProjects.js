@@ -1,6 +1,6 @@
 import React from 'react';
 import { CardProject } from './CardProject';
-import { responsive, api, mern } from './../helpers/projects';
+import { responsive, api, mern } from '../../helpers/projects';
 
 export const CardsProjects = ({ typeProjects }) => {
 
