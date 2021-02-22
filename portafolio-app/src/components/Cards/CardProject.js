@@ -21,7 +21,7 @@ export const CardProject = ({ project }) => {
                 </div>
                 <div className="cardproject__demo-code">
                     <a href={ demo } target="_blank" rel="noreferrer">Demo</a>
-                    <a href={ code } target="_blank" rel="noreferrer">Code</a>
+                    <a href={ code } target="_blank" rel="noreferrer">Código</a>
                 </div>
             </div>
         </div>
