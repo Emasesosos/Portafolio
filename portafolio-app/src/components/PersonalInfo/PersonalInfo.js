@@ -28,7 +28,7 @@ export const PersonalInfo = () => {
                 </div>
                 <div className="personalInfo__descripcion">
                     <p>
-                    Autodidacta y comprometido con la implementación de las tecnologías necesarias para el desarrollo de Proyectos. Gestionar, desarrollar e implementar soluciones tecnológicas que generen cambios de alto impacto para la empresa y la sociedad.
+                        Profesional, proactivo, autodidacta y dedicado, comprometido con la implementación de las tecnologías necesarias para el desarrollo de proyectos. Gestión y desarrollo de soluciones que generen cambios de alto impacto para la empresa y la sociedad.
                     </p>
                 </div>
             </div>
